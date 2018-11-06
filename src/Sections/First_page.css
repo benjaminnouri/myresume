@@ -1,0 +1,9 @@
+.first_page{
+    color: white;
+    background-color: rgb(0, 60, 255);
+} 
+.first_page .Arrow_down_first{
+    position: absolute;
+    top:90vh;
+    align-items: center;
+}

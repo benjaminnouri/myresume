@@ -1,0 +1,88 @@
+.Third_page {
+	background: bisque;
+}
+
+.Third_page .flexiy {
+	display: flex;
+	flex: auto;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.Third_page h1 {
+	font-size: 6em;
+	position: absolute;
+	top: 210vh;
+	text-align: center;
+	padding-bottom: 0;
+	color: blue;
+}
+
+.Third_page section {
+	height: 20vh;
+	width: 15vw;
+	margin: 10vw;
+	margin-top: -10vh;
+}
+
+.Third_page p {
+	font-size: 1.5em;
+	padding-top: 3vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	color: rgb(133, 69, 194);
+}
+.Third_page .background_skills {
+	background-color: aqua;
+	border-radius: 2vh;
+}
+.Third_page .Arrow_up {
+	height: 3vh;
+	width: 1.5vw;
+	position: absolute;
+	top: 295vh;
+	align-items: center;
+}
+
+@media screen and (min-width: 100px) {
+	.Third_page img {
+		height: 3vh;
+		width: 6vw;
+		border-bottom-left-radius: 2vh;
+		border-bottom-right-radius: 3vh;
+	}
+	.Third_page p {
+		font-size: 0.5em;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	.Third_page img {
+		height: 15vh;
+		width: 10vw;
+	}
+	.Third_page p {
+		font-size: 1em;
+	}
+}
+/* @-moz-document {
+	@media screen and (min-width: 100px) {
+		.Third_page img {
+			height: 2vh;
+			width: 4vw;
+		}
+		.Third_page p {
+			font-size: 0.5em;
+		}
+	}
+	
+	@media screen and (min-width: 430px) {
+		.Third_page img {
+			height: 10vh;
+			width: 15vw;
+		}
+		.Third_page p {
+			font-size: 1em;
+		}
+	}
+} */

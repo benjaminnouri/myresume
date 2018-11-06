@@ -1,0 +1,77 @@
+{
+	"title": "Hello I'm Benyamin",
+	"subtitle": "Developer | In Love Of computer",
+	"links": {
+		"github": "https://github.com/benjaminnouri",
+		"stackoverflow": "https://stackoverflow.com/story/benyamin-nouri",
+		"linkedin": "https://www.linkedin.com/in/benyamin-nouri-837028167/"
+	},
+	"sections": [
+		{
+			"title": "About",
+			"items": [
+				{
+					"type": "p",
+					"content": "My name is Benyamin Nouri .I'm from Qazvin,Iran. I'm student computer engineering at Qazvin Azad Islamin  university. I'm love the compueter . I like be best in My field. I can't stop little by little to learn, for this reason try to use all of My time  for learn. "
+				}
+			]
+		},
+		{
+			"title": "Skills",
+			"items": [
+				{
+					"type": "card",
+					"content": {
+						"image": "images/react.png",
+						"title": "React",
+						"Explanation": "Learned the framework of react"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/JavaScript.png",
+						"title": "Javascript",
+						"Explanation": "Learned the framework of Javascript"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/c++.png",
+						"title": "C++",
+						"Explanation": "Learned the framework of C++"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/HTML.png",
+						"title": "HTML",
+						"Explanation": "Learned the framework of HTML"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/CSHARP.png",
+						"title": "C#",
+						"Explanation": "Learned the framework of C#"
+					}
+				},
+				{
+					"type": "card",
+					"content": {
+						"image": "images/Python.jpg",
+						"title": "Python",
+						"Explanation": "Learned the framework of python"
+					}
+				}
+			]
+		}
+	],
+	"icons": {
+		"change_color": "images/icon_change_color.png",
+		"Change_Color_Text": "Change My Color"
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://benjaminnouri.github.io/myresume",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-snowfall": "^1.7.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-image-magnify": "^2.7.4",
+    "react-images-zoom": "^1.0.7",
+    "react-medium-image-zoom": "^3.0.15",
+    "react-scripts": "2.0.5",
+    "react-scroll": "^1.7.10",
+    "react-simple-image-zoom": "^0.1.4",
+    "react-snowstorm": "^0.0.2"
+  },
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-social-icons": "^3.0.0"
+  }
+}
